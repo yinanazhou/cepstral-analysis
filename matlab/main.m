@@ -1,7 +1,7 @@
 clear, clc, close all
 
 % load a sound file
-[x, fs] = audioread('./audio_sample/all_male.wav');  
+[x, fs] = audioread('../audio_sample/all_male.wav');  
 x = x/max(abs(x));                  % normalize
 N = length(x); 
 t = (0:N-1)/fs;

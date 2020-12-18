@@ -18,7 +18,7 @@ end
 
 % mel filterbank
 bank=melbankm(M,framelen,fs,0,0.4,'t');
-% normalozed mel filterbank coefficients
+% normalized mel filterbank coefficients
 bank=full(bank); % convert sparse matrix to normal matrix
 bank=bank/max(bank(:));
 

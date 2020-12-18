@@ -2,11 +2,11 @@ clear, clc, close all
 
 % load a sound file
 % male
-[male, fsmale] = audioread('./audio_sample/all_male.wav'); 
+[male, fsmale] = audioread('../audio_sample/all_male.wav'); 
 male = male/max(abs(male));                     % normalize
 Nmale = length(male);
 % female
-[female, fsfemale] = audioread('./audio_sample/all_female.wav');  
+[female, fsfemale] = audioread('../audio_sample/all_female.wav');  
 female = female/max(abs(female));               % normalize
 Nfemale = length(female); 
 
