@@ -19,7 +19,7 @@ end
 % mel filterbank
 bank=melbankm(M,framelen,fs,0,0.4,'t');
 % normalozed mel filterbank coefficients
-bank=full(bank); % 稀疏矩阵转为正常矩阵的存储方式
+bank=full(bank); % convert sparse matrix to normal matrix
 bank=bank/max(bank(:));
 
 % emphasize high frequencies
