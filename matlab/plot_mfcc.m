@@ -2,7 +2,7 @@ clear, clc;
 
 % plot mfcc
 
-[x, fs] = audioread('../audio_sample/trumpet.wav');
+[x, fs] = audioread('../audio_sample/violin_a4.wav');
 
 M = 24;
 framelen = 256;
