@@ -1,7 +1,7 @@
 ## Cepstral Analysis of Audio Signals
 ### MUMT 605 Final Project
 
-This project This project introduces the basic concepts of cepstrum and cepstrogram. Their implementations in pitch estimation, spectral envelope estimation, and audio feature extraction are also covered.
+This project introduces the basic concepts of cepstrum and cepstrogram. Their implementations in pitch estimation, spectral envelope estimation, and audio feature extraction are also covered.
 
 #### Matlab
 
